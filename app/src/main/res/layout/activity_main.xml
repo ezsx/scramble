@@ -302,7 +302,8 @@
             android:layout_marginStart="5dp"
             android:layout_marginTop="4dp"
             android:background="@drawable/out"
-            android:tag=""
+            android:onClick="button_all"
+            android:tag="@string/str0"
             android:textOff=""
             android:textOn=""
             app:layout_constraintLeft_toLeftOf="parent"
@@ -316,12 +317,14 @@
             android:layout_marginStart="4dp"
             android:layout_marginTop="4dp"
             android:background="@drawable/out"
-            android:tag=""
+            android:onClick="button_all"
+            android:tag="@string/str1"
             android:textOff=""
             android:textOn=""
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
+
         <RadioButton
             android:id="@+id/toggle2"
             android:layout_width="16dp"
@@ -329,12 +332,14 @@
             android:layout_marginStart="4dp"
             android:layout_marginTop="4dp"
             android:background="@drawable/out"
-            android:tag=""
+            android:onClick="button_all"
+            android:tag="@string/str2"
             android:textOff=""
             android:textOn=""
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
+
         <RadioButton
             android:id="@+id/toggle3"
             android:layout_width="16dp"
@@ -342,7 +347,7 @@
             android:layout_marginStart="4dp"
             android:layout_marginTop="4dp"
             android:background="@drawable/out"
-            android:tag=""
+            android:tag="@string/str3"
             android:textOff=""
             android:textOn=""
             app:layout_constraintLeft_toLeftOf="parent"
