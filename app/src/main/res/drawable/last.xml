@@ -25,7 +25,7 @@
     <item android:state_checked="true">
         <shape android:shape="rectangle">
             <corners android:radius="1000dp" />
-            <solid  />
+            <solid/>
             <stroke
                 android:width="0dip" />
             <gradient
